@@ -1,22 +1,16 @@
-print("Belajar Kondisi IF-ELSE di Pemrogaman Python")
+teori = float(input("Masukan Nilai Ujian Teori : "))
+praktek = float(input("Masukan Nilai Ujian Praktek : "))
 
-kkm_mtk = 70
-nilai_fahmi = 75
-nilai_windayani = 95
-nilai_ayu = 60
-
-if nilai_fahmi >= kkm_mtk:
-   print("Lulus")
-else :
-   print("Tidak Lulus")
-
-
-if nilai_wandayani >= kkm_mtk:
-   print("Lulus")
-else : 
-   print("Tidak Lulus")
-
-if nilai_ayu >= kkm_mtk:
-   print("Lulus")
+if teori >= 70 and praktek >= 70:
+    print("Selamat, anda lulus!")
+elif teori >= 70 and praktek < 70:
+    print("Anda harus mengulang ujian praktek")
+elif teori < 70 and praktek >= 70:
+    print("Anda harus mengulang ujian teori")
 else:
-   print("Tidak Lulus")
+    print("Anda harus mengulang ujian teori dan praktek")
+
+
+
+
+   
