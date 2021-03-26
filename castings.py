@@ -1,11 +1,3 @@
-x = int(2.8)
-y = float("4.2")
-z = str(3.0)
-
-print(x)
-print(y)
-print(z)
-
 x = 3.5
 print(x)
 print(type(x))
@@ -30,3 +22,4 @@ print(string_desimal)
 print(type(string_desimal))
 
 print(string_desimal*2)
+print(desimal*2)

@@ -1,16 +1,17 @@
-x = 5
-y = 10
-# penjumlahan
+x = 11
+y = 5
+
+# Penjumlahan
 penjumlahan = x + y
-# pengurangan
+# Pengurangan
 pengurangan = x - y
-# perkalian
+# Perkalian 
 perkalian = x * y
-# pembagian
-pembagian = x / y
-# pangkat
+# Pembagian
+pembagian = x / y 
+# Pangkat
 pangkat = x ** y
-# modulus
+# Modulus
 modulus = x % y
 
 print(penjumlahan)

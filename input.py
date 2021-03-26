@@ -1,4 +1,5 @@
-name = input("Masukan nama :")
-umur = input("Masukan umur :")
-print("Nama saya adalah"+nama)
-print("Nama saya adalah"+umur)
+nama = input("Masukkan nama : ")
+umur = input("Masukkan umur : ")
+
+print("Nama saya adalah "+nama)
+print("Umur saya adalah "+umur)

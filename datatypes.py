@@ -1,4 +1,4 @@
-tulisan = "Hai, aku devon"
+tulisan = "Hai, aku nafi"
 integer = 22
 desimal = 170.8
 string_angka = "190"

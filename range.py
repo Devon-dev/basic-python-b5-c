@@ -1,20 +1,13 @@
-# menggunakan batas stop saja
-for x in range(6): # 0,1,2,3,4,5
+# menggunakan batasan stop saja
+for i in range(6): # 0,1,2,3,4,5
     print(i)
 print("")
 
-# menggunakan batas start dan stop
-for x in range(6): # 3,4,5
+# menggunakan batasan start dan stop 
+for j in range(3,6): # 3,4,5
     print(j)
 print("")
 
-# menggunakan batasan start, stop dan stop(kelipatan)
-for k in range(3,20,30):
+# menggunakan batasan start , stop dan step(kelipatan) 
+for k in range(3,20,2):
     print(k)
-
-# start(batas awal)  : 3
-# stop(batas akhir)  : 10 
-# step(kelipatan)    : 2
-
-tupple = (1,2,3,4,5)
-print(tupple[0:3])
